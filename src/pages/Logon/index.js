@@ -8,7 +8,7 @@ import logoImg from '../../assets/logo.png';
 export default function Logon(){
     return (
      <div className="logon-container">
-         <section className="class-form">
+         <section className="form">
          <img src={logoImg} alt="Be The Hero"/>
          <form>
              <h1>Faça o seu Logon</h1>
@@ -17,7 +17,7 @@ export default function Logon(){
 
 
             <a href="/registrer">
-                <FiLogIn size={16} color="#e02041"/>
+                <FiLogIn size={16} color= "#e02041"/>
                 Não tenho cadastro
             </a>
          </form>
