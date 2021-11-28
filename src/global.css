@@ -43,14 +43,14 @@ form input {
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
-    transition: filter;
+    transition: filter 0.2s;
 }
 
 .button:hover {
     filter: brightness(90%);
 }
 
-.back-link section.form form a {
+.back-link  {
     display: flex;
     align-items: center;
     margin-top: 40px;
@@ -61,10 +61,10 @@ form input {
     transition: opacity 0.2s;
 }
 
-.back-link section.form form a svg {
+.back-link svg {
     margin-right: 8px ;
 }
 
-.back-link section.form a:hover{
+.back-link:hover{
     opacity: 0.8;
 }
